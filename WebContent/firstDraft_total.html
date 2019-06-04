@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            aside{
+                background-color: antiquewhite;                
+            }
+            
+            header{
+                
+/*                position: fixed;*/
+                background-color: white;
+                top:0px;
+                width: 100%;
+                height: 80px;
+                overflow: hidden;
+            }
+
+            header>h1{
+                height: 50px;
+                color: dimgray;
+                margin-left: 10px;
+                float: left;
+            } 
+            header>h1>a{
+                text-decoration: none;                
+                color: dimgray;
+                display: inline-block;
+                height: 50px;
+                line-height: 50px;
+                padding-left: 120px;
+                background-image: url(imgs/logo.jpg);
+                background-size: 100px;
+                background-repeat: no-repeat;                          
+            }
+/*
+            header>img{
+                width: 60px;
+            }
+*/
+            header>div{
+                float: right;
+            }        
+            header>div>input{
+                color: dimgray;
+            }
+            header>div>a>img{
+                width:17px;
+                position: relative;
+                top: 2px;
+                left: 5px;
+            }
+            header>div>ul{
+                padding: 0px;
+                margin: 20px;
+                width: auto;                
+                display: inline;
+            }            
+            header>div>ul>li{
+                width: 80px;
+                display: inline;
+            }
+            header>div>ul>li>a{
+                text-decoration: none;
+                color: dimgray;
+                display: inline-block;
+                width: 80px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+            }
+            header>div>ul>li>a:hover, nav>ul>li>a:active{
+                color: black;
+                font-weight: bold;
+            }
+            
+
+            nav{
+                clear:both;  
+/*
+                margin-top: 80px;
+                background-image: url(main-bukchon.jpg);
+                background-size: 80%;
+                background-repeat: no-repeat;
+                height: 720px;
+*/
+            }
+            nav>ul{
+                padding: 0px;
+                width: 723px;
+                margin: 0px auto;
+            }
+            nav>ul>li{
+                width: 100px;
+                margin-left: 20px;
+                margin-right: 20px;
+                display: inline-block;
+            }
+            nav>ul>li>a{
+                text-decoration: none;
+                color: dimgray;
+                display: inline-block;
+                width: 100px;
+                text-align: center;
+                height: 60px;
+                font-size: 1.5em;
+                line-height: 60px;
+            }
+            nav>ul>li>a:hover, nav>ul>li>a:active{
+                color: black;
+                font-weight: bold;
+            }
+            
+            content{
+                width: 80%;
+                float: left;
+            }
+            content>div{
+/*                width: 80%;*/
+                width:940px;
+                float: right;
+            }
+            content>div>img{
+               width: 100%;
+            }
+            
+            article{
+                float:right;
+                width: 20%;
+                height: 200px;
+                background-color: azure;
+            }
+            aside{
+                float:right;
+                width: 20%;
+            }
+            
+            footer{
+                clear:both; 
+                background-color: rgba(240, 240, 240, 0.7);
+                height: 100px;
+            }
+            footer>p{
+                background-color: rgba(230, 230, 230, 0.7);
+                border: 1px solid lightgray;
+            }
+            footer>div{
+                width: 555px;
+                margin: 0px auto;
+            }
+            footer>div>a{
+                text-decoration: none;
+                color: dimgray;
+            }
+            footer>div>p{
+                display: inline;
+                color:dimgray;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><a href="#">펀킷리스트</a></h1>
+<!--            <img alt="pin-Icon" src="pin2.jpg"/>-->
+            <div>
+                <input type="text" id="search" value="어디로 가고 싶으세요?"/>
+                <a href="#"><img alt="search-img" src="imgs/search-Icon.png"></a>
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>            
+        </header> 
+        
+        <nav>
+            <ul>
+                <li><a href="#">여행지</a></li>
+                <li><a href="#">축제</a></li>
+                <li><a href="#">원데이</a></li>
+                <li><a href="#">후기</a></li>
+                <li><a href="#">F&amp;A</a></li>
+<!--                <li><a href="#">프로그램</a></li>-->
+<!--                <li><a href="#">문의/예약</a></li>-->
+            </ul>
+        </nav>
+        
+        <content>
+            <div>
+                <!--main 시작-->
+                <img alt="main" src="imgs/main-bukchon.jpg"/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <!--main 끝-->
+            </div>            
+        </content>
+        
+        <article>
+        asdfadsf
+        </article>
+        
+        <aside>
+            <div>
+                <a href="#"><img src="imgs/aside1.gif"/></a>
+            </div>            
+        </aside>
+                
+        <footer>
+            <p></p>
+            <div>
+                <a href="#">개인정보처리방침</a>│
+                <a href="#">이용약관</a>│
+                <a href="#">저작권정책</a>│
+                <a href="#">고객의 소리</a>
+                <p>&nbsp;&copy;Funketlist Corp.</p>
+            </div>            
+        </footer>
+    </body>
+</html>
