@@ -1,0 +1,5 @@
+web08~10(& 07, 11) 프로젝트 참고
+web10: 액션태그 사용한 예시
+index.jspdml charset, 다른 페이지 charset 다름
+<title/> 적용
+동기화 통신 vs 비동기화 통신
