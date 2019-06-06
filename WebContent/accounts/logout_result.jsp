@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<%
+session.removeAttribute("userID");
+session.removeAttribute("userName");
+response.sendRedirect("login.jsp");
+%>
 </body>
 </html>

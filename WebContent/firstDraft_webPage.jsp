@@ -33,14 +33,14 @@
             </ul>
         </nav>
         
-        <content>
+        <section>
             <div>
                 <!--main ½ÃÀÛ-->
                 <img alt="main" src="imgs/main-bukchon.jpg"/>
                 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 <!--main ³¡-->
             </div>            
-        </content>
+        </section>
         
         <article>
         asdfadsf

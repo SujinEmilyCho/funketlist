@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
@@ -9,14 +9,19 @@
 </head>
 <body>
 	<header>
-	    <h1><a href="#">펀킷리스트</a></h1>
+	    <h1><a href="/funketlist/index.jsp">펀킷리스트</a></h1>
 	<!--            <img alt="pin-Icon" src="/funketlist/imgs/pin2.jpg"/>-->
 	    <div>
 	        <input type="text" id="search" value="어디로 가고 싶으세요?"/>
 	        <a href="#"><img alt="search-img" src="/funketlist/imgs/search-Icon.png"></a>
 	        <ul>
-	            <li><a href="#">로그인</a></li>
-	            <li><a href="#">회원가입</a></li>
+	        <% if(session.getAttribute("userID")==null){%>
+	        	<li><a href="/funketlist/accounts/login.jsp">로그인</a></li>
+	        	<li><a href="/funketlist/accounts/createAccount.jsp">회원가입</a></li>
+	        <%}else{%>
+	        	<li><a href="/funketlist/accounts/logout.jsp">로그아웃</a></li>
+	        	<li><a href="#">내계정</a></li>
+	        <%} %>
 	        </ul>
 	    </div>            
 	</header> 
@@ -33,7 +38,7 @@
         </ul>
     </nav>
 	   <!-- header 끝! --> 
-  	<content>
+  	<section>
   	  	<div>
 </body>
 </html>

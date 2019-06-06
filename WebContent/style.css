@@ -107,16 +107,16 @@ aside{
                 font-weight: bold;
             }
             
-            content{
+            section{
                 width: 80%;
                 float: left;
             }
-            content>div{
+            section>div{
 /*                width: 80%;*/
                 width:940px;
                 float: right;
             }
-            content>div>img{
+            section>div>img{
                width: 100%;
             }
             

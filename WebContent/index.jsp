@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!doctype html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">           
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">           
     </head>
     <body> 
-    <jsp:include page="template/header.jsp"/>  
-   	<!-- content ÆÄÆ® -->     
+   <jsp:include page="template/header.jsp"/>
+   	<!-- section íŒŒíŠ¸ -->     
              <img alt="main" src="/funketlist/imgs/main-bukchon.jpg"/>
              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-             <!--main ³¡--> 
-    <jsp:include page="template/aside.jsp"/> 
-    <!-- content ÆÄÆ® -->
-    <jsp:include page="template/footer.jsp"/>     
+             <!--main ë--> 
+   <jsp:include page="template/aside.jsp"/>
+    <!-- section íŒŒíŠ¸ -->
+   <jsp:include page="template/footer.jsp"/>
     </body>
 </html>
