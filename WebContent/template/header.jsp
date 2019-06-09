@@ -31,7 +31,7 @@
             <li><a href="#">여행지</a></li>
             <li><a href="#">축제</a></li>
             <li><a href="#">원데이</a></li>
-            <li><a href="#">후기</a></li>
+            <li><a href="/funketlist/reviews/list.jsp">후기</a></li>
             <li><a href="#">F&amp;A</a></li>
 <!--                <li><a href="#">프로그램</a></li>-->
 <!--                <li><a href="#">문의/예약</a></li>-->
